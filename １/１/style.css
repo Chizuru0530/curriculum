@@ -1,0 +1,110 @@
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+ }
+.header {
+    width: 400px;
+    height: 100px;
+    background-color: rgb(20,31,64);
+}
+.relative {
+    position: relative;
+}
+.absolute {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    bottom: 20px;
+    left: 220px;
+}
+.h1-1 {
+    width: 160px;
+    height: 60px;
+    background-color: white;
+}
+.container {
+    display: flex;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    bottom: 30px;
+    left: 230px;
+}
+.h1 {
+    width: 40px;
+    height: 40px;
+    background-color:  rgb(169,0,75);
+}
+.h2 {
+    width: 40px;
+    height: 40px;
+    background-color:  rgb(169,0,75);
+    margin-left: 10px;
+}
+.h3 {
+    width: 40px;
+    height: 40px;
+    background-color:  rgb(169,0,75);
+    margin-left: 10px;
+}
+/*.main {
+    width: 400px;
+    height: 250px;
+}*/
+.right {
+    width: 250px;
+    height: 250px;
+    background-color: rgb(140,39,39);
+    float: left;
+}
+.left {
+    width: 150px;
+    height: 250px;
+    background-color: rgb(128,191,168);
+    float: left;
+}
+.footer {
+    width: 400px;
+    height: 100px;
+    background-color: rgb(217,141,48);
+}
+.box1 {
+    width: 140px;
+    height: 40px;
+    background-color: rgb(255,134,63);
+    border: solid 5px;
+    border-color: white;
+}
+.box2 {
+    width: 140px;
+    height: 40px;
+    background-color: rgb(255,134,63);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: solid 5px;
+    border-color: white;
+}
+.box3 {
+    width: 140px;
+    height: 40px;
+    background-color: rgb(255,134,63);
+    border: solid 5px;
+    border-color: white;
+}
+.relative {
+    position: relative;
+}
+.green {
+    position: absolute;
+    left: 190px;
+    top: 140px;
+    right: 60px;
+    bottom: 140px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.green {
+    display: flex;
+    flex-direction: column;    
+}
