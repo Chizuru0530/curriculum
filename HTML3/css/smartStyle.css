@@ -1,0 +1,55 @@
+@media screen and (max-width: 479px) {
+    .header {
+        width: 200px;
+        height: 200px;
+        position: relative;
+    }
+    .absolute {
+        position: absolute;
+        top: 20px;
+        right: 70px;
+        bottom: 20px;
+        left: 70px;
+    }
+    .h1-1 {
+        width: 160px;
+        height: 60px;
+        flex-direction: column;
+    }
+    .container {
+        display: flex;
+        position: absolute;
+        top: 30px;
+        right: 80px;
+        bottom: 30px;
+        left: 80px;
+    }
+    .left {
+        width: 200px;
+        height: 100px;
+    }
+    .right {
+        width: 200px;
+        height: 210px;
+    }
+    .relative {
+        position: relative;
+    }
+    .green {
+        position: absolute;
+        left: 30px;
+        top: 20px;
+        right: 20px;
+        bottom: 20px;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .green {
+        display: flex;
+        flex-direction: column;    
+    }
+    .footer {
+        width: 200px;
+        height: 100px;
+    }
+    }
