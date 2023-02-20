@@ -2,6 +2,8 @@
     .header {
         width: 200px;
         height: 200px;
+    }
+    .relative {
         position: relative;
     }
     .absolute {
@@ -9,20 +11,28 @@
         top: 20px;
         right: 70px;
         bottom: 20px;
-        left: 70px;
+        left: 80px;
     }
     .h1-1 {
-        width: 160px;
-        height: 60px;
-        flex-direction: column;
+        width: 60px;
+        height: 160px;
+        background-color: white;
     }
     .container {
-        display: flex;
         position: absolute;
         top: 30px;
         right: 80px;
         bottom: 30px;
         left: 80px;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .h1{
+        margin-left: 10px;
+    }
+    .h2 {
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
     .left {
         width: 200px;
@@ -38,10 +48,9 @@
     .green {
         position: absolute;
         left: 30px;
-        top: 20px;
-        right: 20px;
+        top: 320px;
+        right: 30px;
         bottom: 20px;
-        margin-left: 10px;
         margin-top: 10px;
     }
     .green {
